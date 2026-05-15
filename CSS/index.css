@@ -1,0 +1,128 @@
+.box {
+  margin-top: 10px;
+  width: fit-content;
+}
+
+.box h1 {
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.box h2 {
+  color: white;
+  font-size: large;
+  font-weight: normal;
+}
+
+/* MAIN CONTENT */
+
+.about-me {
+  padding: 40px;
+}
+
+.card-me {
+  padding: 20px;
+  border-radius: 16px;
+  transition: 0, 3s ease;
+}
+
+.about-me p {
+  margin: 1rem 0.5rem;
+}
+
+.card-me:hover {
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateX(5px);
+}
+
+/* PORTFOLIO SECTION */
+.resume {
+  width: 100%;
+  padding: 40px 0;
+}
+
+/* EXPERIENCE */
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+
+.experience .card {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  position: relative;
+  padding: 25px;
+  border-radius: 16px;
+  transition: 0, 3s ease;
+}
+
+.experience .card:hover {
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateX(5px);
+}
+
+/* DATE */
+.experience .card .date {
+  width: fit-content;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.experience .card .date p {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  overflow-x: auto;
+}
+
+.skills li {
+  white-space: nowrap;
+  color: aliceblue;
+  border-radius: 5px;
+  background: rgba(169, 187, 229, 0.5);
+  padding: 2px;
+}
+
+/* PROJECT SECTION */
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+/* PROJECT CARD */
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 18px 20px;
+  border-radius: 16px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  transform: translateX(5px);
+}
+
+.project-card::after {
+  content: "➶";
+  color: var(--out-color);
+  font-size: 1.4rem;
+}
