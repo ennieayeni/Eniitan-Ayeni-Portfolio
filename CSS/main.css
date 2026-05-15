@@ -11,6 +11,7 @@ body {
   display: flex;
   align-items: flex-start;
   background-color: var(--main-color);
+  overflow-x: hidden;
 }
 
 /* LINK */
@@ -108,7 +109,9 @@ main {
   content: "";
   position: absolute;
   display: block;
-  padding: 5px 10px, 5px 10px;
+  padding:
+    5px 10px,
+    5px 10px;
   border: 0 solid transparent;
   width: 0%;
   height: 0%;

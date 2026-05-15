@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   body {
     flex-direction: column;
     gap: 50px;
